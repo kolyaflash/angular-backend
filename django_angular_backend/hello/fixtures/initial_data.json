@@ -1,20 +1,203 @@
 [
     {
-        "pk": 1, 
-        "model": "auth.user", 
+        "pk": 1,
+        "model": "auth.user",
         "fields": {
-            "username": "admin", 
-            "first_name": "", 
-            "last_name": "", 
-            "is_active": true, 
-            "is_superuser": true, 
-            "is_staff": true, 
-            "last_login": "2011-08-19 09:59:01", 
-            "groups": [], 
-            "user_permissions": [], 
-            "password": "sha1$b6575$27241f449f25136d2dad689f97cf3c1066cdc162", 
-            "email": "admin@example.com", 
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "is_active": true,
+            "is_superuser": true,
+            "is_staff": true,
+            "last_login": "2011-08-19 09:59:01",
+            "groups": [],
+            "user_permissions": [],
+            "password": "sha1$b6575$27241f449f25136d2dad689f97cf3c1066cdc162",
+            "email": "admin@example.com",
             "date_joined": "2011-08-19 09:53:08"
         }
+    },
+
+    {
+      "pk": 1,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Robert",
+        "last_name": "Abbott",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1933-03-02",
+        "date_created": "2014-05-24T09:27:44.306",
+        "email": "robertabbot@gmail.com"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Bruce",
+        "last_name": "Ableson",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1963-09-23",
+        "date_created": "2014-05-24T09:28:20.149",
+        "email": ""
+      }
+    },
+    {
+      "pk": 3,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Leonard",
+        "last_name": "Adleman",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1945-12-31",
+        "date_created": "2014-05-24T09:28:54.875",
+        "email": ""
+      }
+    },
+    {
+      "pk": 4,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Paul ",
+        "last_name": "Allen",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1976-07-21",
+        "date_created": "2014-05-24T09:30:13.729",
+        "email": ""
+      }
+    },
+    {
+      "pk": 5,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Daniel ",
+        "last_name": "Kottke",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1953-04-01",
+        "date_created": "2014-05-24T09:30:56.328",
+        "email": "dankottke@gmail.com"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Matthew ",
+        "last_name": "Haughey",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1972-10-10",
+        "date_created": "2014-05-24T09:31:31.847",
+        "email": ""
+      }
+    },
+    {
+      "pk": 7,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Michael ",
+        "last_name": "Hawley",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1961-11-02",
+        "date_created": "2014-05-24T09:31:56.859",
+        "email": ""
+      }
+    },
+    {
+      "pk": 8,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Nate ",
+        "last_name": "Parker",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1979-11-28",
+        "date_created": "2014-05-24T09:33:05.560",
+        "email": "nateparker@gmail.com"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Paul",
+        "last_name": "Irish",
+        "cellphone_number": "",
+        "jabber_id": "paul@jgoogl.com",
+        "birth_date": "1982-05-12",
+        "date_created": "2014-05-24T09:33:57.253",
+        "email": ""
+      }
+    },
+    {
+      "pk": 10,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Jack",
+        "last_name": "Dorsey",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1976-11-19",
+        "date_created": "2014-05-24T09:34:35.618",
+        "email": ""
+      }
+    },
+    {
+      "pk": 11,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "16502530000 ",
+        "first_name": "Kelley ",
+        "last_name": "Deal",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1961-06-12",
+        "date_created": "2014-05-24T09:35:29.234",
+        "email": ""
+      }
+    },
+    {
+      "pk": 12,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Russ ",
+        "last_name": "Nelson",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1958-03-24",
+        "date_created": "2014-05-24T09:36:27.626",
+        "email": "russ@nelson.com"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "hello.contact",
+      "fields": {
+        "phone_number": "",
+        "first_name": "Tim",
+        "last_name": "Paterson",
+        "cellphone_number": "",
+        "jabber_id": "",
+        "birth_date": "1956-08-04",
+        "date_created": "2014-05-24T09:37:01.722",
+        "email": ""
+      }
     }
 ]

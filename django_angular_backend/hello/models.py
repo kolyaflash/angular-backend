@@ -5,6 +5,8 @@ from django.utils.translation import ugettext as _
 
 
 class Contact(models.Model):
+    date_created = models.DateTimeField(auto_now_add=True)
+
     first_name = models.CharField(max_length=128)
     last_name = models.CharField(max_length=128)
     birth_date = models.DateField(null=True, blank=True)
