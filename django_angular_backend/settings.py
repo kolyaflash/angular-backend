@@ -11,7 +11,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 SQLITE_PATH = os.path.join(
-    os.path.abspath(os.path.dirname(__file__)), '../hello.sqlite3')
+    os.path.abspath(os.path.dirname(__file__)), '../app.sqlite3')
 
 DATABASES = {
     'default': {
@@ -125,7 +125,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
-    'django_angular_backend.hello',
+    'django_angular_backend.app',
     'tastypie',
 )
 

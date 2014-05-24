@@ -1,7 +1,7 @@
 from django.conf.urls.defaults import patterns, include, url
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from tastypie.api import Api
-from django_angular_backend.hello.api import ContactResource
+from django_angular_backend.app.api import ContactResource
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -13,7 +13,7 @@ v1_api.register(ContactResource())
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'django_angular_backend.hello.views.home', name='home'),
+    url(r'^$', 'django_angular_backend.app.views.home', name='home'),
     # url(r'^django_angular_backend/', include('django_angular_backend.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

@@ -20,7 +20,7 @@
 
     {
       "pk": 1,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Robert",
@@ -34,7 +34,7 @@
     },
     {
       "pk": 2,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Bruce",
@@ -48,7 +48,7 @@
     },
     {
       "pk": 3,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Leonard",
@@ -62,7 +62,7 @@
     },
     {
       "pk": 4,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Paul ",
@@ -76,7 +76,7 @@
     },
     {
       "pk": 5,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Daniel ",
@@ -90,7 +90,7 @@
     },
     {
       "pk": 6,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Matthew ",
@@ -104,7 +104,7 @@
     },
     {
       "pk": 7,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Michael ",
@@ -118,7 +118,7 @@
     },
     {
       "pk": 8,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Nate ",
@@ -132,7 +132,7 @@
     },
     {
       "pk": 9,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Paul",
@@ -146,7 +146,7 @@
     },
     {
       "pk": 10,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Jack",
@@ -160,7 +160,7 @@
     },
     {
       "pk": 11,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "16502530000 ",
         "first_name": "Kelley ",
@@ -174,7 +174,7 @@
     },
     {
       "pk": 12,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Russ ",
@@ -188,7 +188,7 @@
     },
     {
       "pk": 13,
-      "model": "hello.contact",
+      "model": "app.contact",
       "fields": {
         "phone_number": "",
         "first_name": "Tim",

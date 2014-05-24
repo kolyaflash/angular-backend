@@ -1,6 +1,6 @@
 from annoying.decorators import render_to
 from django.contrib.auth.models import User
-from django_angular_backend.hello.models import Contact
+from django_angular_backend.app.models import Contact
 
 
 @render_to('index.html')

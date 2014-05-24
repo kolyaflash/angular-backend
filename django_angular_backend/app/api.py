@@ -1,5 +1,5 @@
 from tastypie.resources import ModelResource
-from django_angular_backend.hello.models import Contact
+from django_angular_backend.app.models import Contact
 
 
 class ContactResource(ModelResource):
