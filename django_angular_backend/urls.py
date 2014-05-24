@@ -1,4 +1,5 @@
 from django.conf.urls.defaults import patterns, include, url
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from tastypie.api import Api
 from django_angular_backend.hello.api import ContactResource
 
@@ -22,3 +23,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^api/', include(v1_api.urls)),
 )
+
+urlpatterns += staticfiles_urlpatterns()
