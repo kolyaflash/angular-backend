@@ -99,6 +99,7 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -127,6 +128,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'django_angular_backend.app',
     'tastypie',
+    'corsheaders',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -156,3 +158,5 @@ LOGGING = {
 API_LIMIT_PER_PAGE = 1000
 TASTYPIE_ALLOW_MISSING_SLASH = True
 TASTYPIE_DEFAULT_FORMATS = ['json', ]
+
+CORS_ORIGIN_ALLOW_ALL = True
